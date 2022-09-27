@@ -1,10 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&family=Source+Sans+Pro:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto&family=Source+Sans+Pro:wght@300&display=swap");
 
 * {
   box-sizing: border-box;
 }
 
 body {
+  --color-brown-900: hsl(22, 28%, 21%);
+  --color-brown-800: hsl(22, 28%, 29%);
+  --color-brown-700: hsl(22, 28%, 37%);
+  --color-brown-600: hsl(22, 28%, 45%);
+  --color-brown-500: hsl(22, 31%, 52%);
+  --color-brown-400: hsl(22, 31%, 60%);
+  --color-brown-300: hsl(22, 31%, 67%);
+  --color-brown-200: hsl(20, 31%, 74%);
+  --color-brown-100: hsl(22, 31%, 81%);
+  --color-brown-50: hsl(22, 31%, 88%);
+
+  --color-green-900: #29603b;
+  --color-green-800: #2f6f44;
+  --color-green-700: #3d8f58;
+  --color-green-600: #48a868;
+  --color-green-500: #5eba7d;
+  --color-green-400: #82ca9a;
+  --color-green-300: #a6d9b7;
+  --color-green-200: #cae8d4;
+  --color-green-100: #dcf0e2;
+  --color-green-50: #eef8f1;
+
   --color-grey-50: hsl(265, 55%, 96%);
   --color-grey-100: hsl(265, 19%, 88%);
   --color-grey-200: hsl(265, 7%, 70%);
@@ -15,6 +37,17 @@ body {
   --color-grey-700: hsl(265, 4%, 31%);
   --color-grey-800: hsl(276, 5%, 20%);
   --color-grey-900: hsl(280, 5%, 13%);
+
+  --color-blue-900: #113860;
+  --color-blue-800: #0054a3;
+  --color-blue-700: #0064bd;
+  --color-blue-600: #0077cc;
+  --color-blue-500: #0095ff;
+  --color-blue-400: #379fef;
+  --color-blue-300: #6cbbf7;
+  --color-blue-200: #addafc;
+  --color-blue-100: #cfeafe;
+  --color-blue-50: #f2f9ff;
 
   --color-primary-50: #c8b3ce;
   --color-primary-100: #a07aaa;
@@ -43,15 +76,15 @@ body {
   --size-40: 10rem;
 
   margin: 0;
-  background-color: var(--color-grey-500);
+  background-color: var(--color-grey-200);
   color: #252525;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1,
 h2,
 h3 {
-  font-family: 'Oswald', 'Roboto', sans-serif;
+  font-family: "Oswald", "Roboto", sans-serif;
 }
 
 a {
