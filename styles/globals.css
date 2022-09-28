@@ -38,7 +38,7 @@ body {
   --color-grey-800: hsl(276, 5%, 20%);
   --color-grey-900: hsl(280, 5%, 13%);
 
-  --color-blue-900: #113860;
+  --color-blue-900: #053552;
   --color-blue-800: #0054a3;
   --color-blue-700: #0064bd;
   --color-blue-600: #0077cc;
@@ -71,13 +71,14 @@ body {
   --size-5: 1.25rem;
   --size-6: 1.5rem;
   --size-8: 2rem;
-  --size-16: 4rem;
-  --size-20: 5rem;
+  --size-16: 3rem;
+  --size-20: 4rem;
   --size-40: 10rem;
 
   margin: 0;
+  /* background-color: var(--color-grey-200); */
   background-color: var(--color-grey-200);
-  color: #252525;
+  color: #053552;
   font-family: "Roboto", sans-serif;
 }
 
