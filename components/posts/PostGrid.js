@@ -8,7 +8,7 @@ const PostGrid = (props) => {
   return (
     <div className={classes.wrapper}>
       <ul className={classes.grid}>
-        {posts.map((post) => {
+        {posts?.map((post) => {
           return <PostItem key={post.slug} post={post} />
         })}
       </ul>

@@ -14,11 +14,11 @@ const Hero = () => {
           quality={100}
         />
       </div>
-      <h1>Hi this is Natalia</h1>
+      <h1>Welcome to my tasty blog </h1>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae
-        voluptatibus sint molestias expedita consequatur laudantium provident
-        similique unde. Consequuntur accusamus amet exercitationem atque.
+        Do you love meat? Are you missing late night smoky grilled meats? Do you
+        love hands-on dining where you get to do it yourself? Korean BBQ is
+        perfect for you.
       </p>
     </section>
   )

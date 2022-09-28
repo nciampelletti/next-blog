@@ -17,14 +17,14 @@ const PostItem = ({ post }) => {
 
   return (
     <li className={classes.post}>
-      <Link href='/'>
+      <Link href={linkPath}>
         <a>
           <div>
             <Image
               src={imagePath}
               alt={title}
               width={150}
-              height={200}
+              height={100}
               layout='responsive'
             />
           </div>
