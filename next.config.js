@@ -8,4 +8,8 @@ module.exports = {
 
     return config
   },
+  env: {
+    DATABASE:
+      "mongodb+srv://natashat:Tyson2022@cluster0.vkov4.mongodb.net/MyBlog?retryWrites=true&w=majority",
+  },
 }
