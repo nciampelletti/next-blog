@@ -3,7 +3,7 @@ import PostContent from "../../components/posts/post-detail/PostContent"
 import { getPostData, getPostsFiles } from "../../helpers/posts-util"
 import Head from "next/head"
 
-const PostDetailPage = (props) => {
+function PostDetailPage(props) {
   return (
     <>
       <Head>
@@ -19,25 +19,24 @@ export function getStaticProps(context) {
   const { params } = context
   const { slug } = params
 
-  const post = getPostData(slug)
+  const postData = getPostData(slug)
 
   return {
-    props: { post },
+    props: {
+      post: postData,
+    },
     revalidate: 600,
   }
 }
 
 export function getStaticPaths() {
-  const files = getPostsFiles()
-  const slugs = files.map((file) => file.replace(/\.md$/, ""))
+  const postFilenames = getPostsFiles()
 
-  // const post = getPostData(params.slug)
+  const slugs = postFilenames.map((fileName) => fileName.replace(/\.md$/, ""))
+
   return {
-    paths: slugs.map((slug) => ({
-      params: { slug },
-    })),
+    paths: slugs.map((slug) => ({ params: { slug: slug } })),
     fallback: false,
   }
 }
-
 export default PostDetailPage
