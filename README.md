@@ -7,4 +7,4 @@
 
 ## Hosted at:
 
-[https://ciampelletti-blog.vercel.app/)](https://ciampelletti-blog.vercel.app/)
+https://ciampelletti-blog.vercel.app/
